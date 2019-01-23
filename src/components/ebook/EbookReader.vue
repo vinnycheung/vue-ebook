@@ -54,9 +54,11 @@
       },
       toggleTitleAndMenu () {
         this.setMenuVisible(!this.menuVisible)
+        this.setSettingVisible(-1)
       },
       hideTitleAndMenu () {
         this.setMenuVisible(false)
+        this.setSettingVisible(-1)
       }
     },
     mounted () {
